@@ -1,0 +1,62 @@
+/*
+https://web.archive.org/web/20180401042753/http://seanhalpin.io/
+https://colorhunt.co/palette/220246
+*/
+
+
+body {
+    background-color: #cfd3ce;
+    margin: 0;
+    text-align: center;
+}
+h1{
+    margin: 0 auto;
+    width: 20%;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 60px;
+    color: #34626c;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-container{
+    background-color: #839b97;
+    padding-top: 100px;
+    position: relative;
+
+}
+
+.middle-container{
+    background-color: #c6b497;
+    
+
+}
+
+.bottom-container{
+    background-color: #34626c;
+    
+
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 30%;
+    bottom: 300px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 30%;
+    top: 50px;
+}
