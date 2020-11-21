@@ -1,6 +1,7 @@
 /*
 https://web.archive.org/web/20180401042753/http://seanhalpin.io/
 https://colorhunt.co/palette/220246
+#cfd3ce; /*#c6b497;  #34626c;   #839b97;
 */
 
 
@@ -9,23 +10,37 @@ body {
     margin: 0;
     text-align: center;
 }
+
+a{
+    font-family: 'Poppins', sans-serif;
+}
+
 h1{
     margin: 0 auto;
-    width: 20%;
+    width: 40%;
     font-family: 'Yeon Sung', cursive;
-    font-size: 60px;
+    font-size: 5rem; /*16pt is the font at 100%*/
     color: #34626c;
 }
 h2{
+    color: #34626c;
     font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
 }
 h3{
+    color: #5293a1;
     font-family: 'Poppins', sans-serif;
 }
 p{
     font-family: 'Roboto', sans-serif;
 }
 
+.footer-link{
+    color: #34626c;
+    text-decoration: none;
+    margin: 0 10px;
+}
 .top-container{
     background-color: #839b97;
     padding-top: 100px;
@@ -34,13 +49,14 @@ p{
 }
 
 .middle-container{
-    background-color: #c6b497;
+    background-color:#cfd3ce; /*#c6b497;*/
     
 
 }
 
 .bottom-container{
-    background-color: #34626c;
+    background-color: #839b97;
+    
     
 
 }
@@ -59,4 +75,36 @@ p{
     position: absolute;
     right: 30%;
     top: 50px;
+}
+
+.code-img{
+    max-width: 25%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+.web-img{
+    max-width: 25%;
+    height: auto;
+    float: right;
+    margin-left: 15px;
+}
+
+.cv-img{
+    max-width: 25%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+.copyright{
+    margin: 0;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
