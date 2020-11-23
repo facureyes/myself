@@ -40,6 +40,7 @@ hr{
     border-color:#839b97;
     width: 7.5%;
     height: 0px;
+    padding: 50px auto; 
 }
 
 p{
@@ -51,23 +52,36 @@ p{
     text-decoration: none;
     margin: 0 10px;
 }
+.footer-link:hover{
+    color:#cfd3ce;
+}
+
 .top-container{
     background-color: #839b97;
     padding-top: 100px;
     position: relative;
+    
 
 }
 
 .middle-container{
     background-color:#cfd3ce; /*#c6b497;*/
+    margin: 100px 0px;
     
 
 }
 
 .bottom-container{
     background-color: #839b97;
-    
-    
+   
+
+}
+
+.intro{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    line-height: 2;
 
 }
 
